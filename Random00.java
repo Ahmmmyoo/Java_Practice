@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Random00 {
 	public static void main(String args[]) {
 
