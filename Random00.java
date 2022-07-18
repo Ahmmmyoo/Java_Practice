@@ -7,42 +7,20 @@ public class Random00 {
 
 		System.out.print("\nTrying someting new\n");
 
-		ArrayList<String> alf = new ArrayList<>();
-		
-		alf.add("A");
-		alf.add("C");
-		alf.add("B");
-		alf.add("E");
-		alf.add("D");
-		alf.add("G");
-		alf.add("F");
+		for(int i = 0; i <= 10; i++)
+		System.out.println(i);
 
-		System.out.println(" *** ");
+		for(int i = 0; i <= 10; ++i)
+		System.out.println(i);
 
-		for(int i=0; i<alf.size(); i++) //for loop
-		System.out.println(alf.get(i));
+		int j;
+		j = 1;
+		int kpost = 5*(j++);
+		j = 2;
+		int kpre  = 5*(++j);
 
-		System.out.println(" *** ");
-		
-		for (String str : alf) // for each loop
-		System.out.println(str);
-		
-		System.out.println(" *** ");
-		
-		Collections.sort(alf); // sorting
-		System.out.println("sorting...");
-		
-		System.out.println(" *** ");
-
-		for(int i=0; i<alf.size(); i++) //for loop
-		System.out.println(alf.get(i));
-
-		System.out.println(" *** ");
-		
-		for (String str : alf) // for each loop
-		System.out.println(str);
-		
-		System.out.println(" *** ");
+		System.out.println(kpost);
+		System.out.println(kpre);
 
 		
 
